@@ -45,12 +45,17 @@
     <div class="container">
 
       <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
         <a href="#intro" class="scrollto"><img style="max-height: unset;" src="img/rtlogo.png" alt="" class="img-fluid"></a>
       </div>
-
-      <nav class="main-nav float-right d-none d-lg-block">
+      <div class="d-none d-sm-block" style="
+          float: right;
+          /* display: none; */
+          padding: 6px;
+      "><strong style="
+          color: deeppink;
+      ">Contact us:</strong> &nbsp; &nbsp; +91 9985939377 | 040 40055426
+      </div>
+      <nav style="margin-right:10%; " class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
@@ -78,7 +83,6 @@
         </ul>
       </nav><!-- .main-nav -->
 
-    </div>
   </header><!-- #header -->
 
   <!--==========================
@@ -94,6 +98,14 @@
       <div class="intro-info" style="width: 100%;
     float: left;
     text-align: center;">
+        <h2 style="    border: 6px solid;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 20px;
+    border-radius: 8px;
+}">Welcome to Rathnam Tuition
+        </h2>
         <h2>We provide Tuitions for <br><span style="color:gold;">SSC | CBSE | ICSE | B.Tech | Home Tuitions</span><br>for your childrens</h2>
         <div>
           <a href="#" style="border-radius: 4px;
@@ -103,7 +115,7 @@
           <a href="#" style="border-radius: 4px;
     border-color: white;
     color: #10b12c;
-    background: white;" class="btn-services scrollto">Inter Mediate</a>
+    background: white;" class="btn-services scrollto">Intermediate</a>
           <a href="#" style="border-radius: 4px;
     border-color: white;
     color: #8514ff;
@@ -638,8 +650,7 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+  <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
